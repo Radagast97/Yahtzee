@@ -1,0 +1,18 @@
+
+
+
+
+For class ScoreBoard->chooseEntry function, argument value should be: 
+    "One"
+    "Two"
+    "Three"
+    "Four"
+    "Five"
+    "Six"
+    "ThreeOfAKind"                  
+    "FourOfAKind"                  
+    "FullHouse"                 
+    "ShortStraight"                  
+    "Straight"              
+    "Yahtzee"                  
+    "Chance"                  

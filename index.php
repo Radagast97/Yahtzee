@@ -1,3 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Homework 03 inde</title>
+    <meta name="author" content="Glenn Murray">
+    <meta http-equiv="Content-Type"
+      content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="signup.css"/>
+</head>
+<body>
+
+  <header class="center">
+     <div class="center">
+        <h1>Testbed</h1>
+   </div>
+  </header>
+<div class="center">
+
+  <section id="boxed" class="centered">
+<p> top of page</p>
+
 <?php
 
 
@@ -438,7 +460,6 @@ class ScoreBoard {
 
 }
 
-// Testing code
 
 echo "before<br>";
 $scoreboard = new ScoreBoard(5);
@@ -449,3 +470,15 @@ $scoreboard->printboard();
 echo "after<br>";
 
 ?>
+  </section>
+</div>
+  <footer class="center">
+     <div class="center">
+        <h2 class="italic"> php.</h2>
+   </div>
+  </footer>
+
+
+</body>
+</html>
+

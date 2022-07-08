@@ -1,0 +1,102 @@
+
+
+body {
+   background-color: tan;
+}
+
+header {
+   margin: 10%;
+   margin-top: 35px;
+   margin-bottom: 35px;
+   text-align: center;
+   padding: 10px;
+   background-color: #FF00FF;
+   border: 6px ridge red;
+}
+
+footer {
+   margin-top: 20px;
+   margin-bottom: 25px;
+   text-align: center;
+   background-color: #FF00FF;
+   border: 6px ridge red;
+}
+
+h1 {
+   font-size: 50px;
+   font-family: Times;
+}
+
+section {
+   border: 2px solid grey;
+   background-color: ivory;
+   padding: 14px;
+}
+
+
+.picbig {
+   width: 150px;
+   height: 150px;
+}
+
+.picsmall {
+   width: 30px;
+   height: 30px;
+}
+
+.picfloatright {
+   float: right;
+}
+
+.stopfloat {
+   clear: both;
+}
+
+.columnleft {
+   position: relative;
+   left: 30px;
+   top: -20px;
+}
+
+.columnright {
+   position: relative;
+   right: 30px;
+   top: -20px;
+}
+
+.center {
+    
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+div.centered {
+    position: relative;
+    top: -40px;
+    text-align: center;
+    min-width: 300px;
+    max-width: 600px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.margin30 {
+/*    margin:20px; */
+    padding: 10px;
+}
+
+
+.left {
+    width: 60%;
+    justify-content: left;
+    text-align: left;
+/*    margin: 10px; */
+    padding: 10px;
+}
+
+.boxed {
+    border: 2px double grey; 
+    width 60%;
+    background-color: ivory;
+}
